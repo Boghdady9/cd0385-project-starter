@@ -27,7 +27,7 @@ I may spend more time on feature engineering, EDA, and parameters tuning, I beli
 |--|--|--|--|--|
 |initial|default_values|default_values|default_values|1.81080|
 |add_features|default_values|default_values|default_values|0.45484|
-|hpo|{'GBM': {'num_leaves': (30, 65)}}|{'XGB': {'max_depth': 11}}{'XT': {'n_estimators': 100}}|0.46373|
+|hpo|{'GBM': {'num_leaves': (30, 65)}}|{'XGB': {'max_depth': 11}}{'XT': {'n_estimators': 100}}|0.49416|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
