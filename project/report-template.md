@@ -3,26 +3,25 @@
 Mohamed Boghdady 
 ## Initial Training 1.81080
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-TODO: after training the model for the first time, the error was high and EDA and feature engineering eas needed to reduce the error
-
+TODO: According to the instructions, I checked all the predictions to see if there were any negative values; and I assigned them to zero.
 ### What was the top ranked model that performed?
 TODO: Add your explanation
 WeightedEnsemble_L3
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
-TODO: after creation new features, EDA (correllation matrix) showed that there is a relationship between the new featurs and the target feature
+TODO: after creation new features, EDA (correlation matrix) showed that there is a relationship between the new features and the target feature
 
 ### How much better did your model preform after adding additional features and why do you think that is?
 TODO: Add your explanation
-the score_val improved from -50 to -32 after doing EDA and feature creation, the new faetures helped the model to learn better. 
+the score_val improved from -50 to -32 after doing EDA and feature creation, the new features helped the model to learn better. 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
 TODO: Add your explanation: tunning the hyper parameters increases the error, I got worse score. How ever some models improved its performance but the overall result wasn't as expected
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
 TODO: Add your explanation
-I may spend more time on feature engineering, EDA, and parameters tuning, I belive that if more time is given for this data, the performance will improve after doing some Adjustmens.
+I may spend more time on feature engineering, EDA, and parameters tuning, I believe that if more time is given for this data, the performance will improve after doing some Adjustmens.
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
