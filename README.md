@@ -1,4 +1,4 @@
-# <Bike sharing Demand>
+# Bike sharing Demand
   
   ## Description
 * This is regression project for predicting the total number of rents.
