@@ -14,13 +14,21 @@ The main objective of this project is to predict the demand for bike sharing bas
 AutoGluon is an open-source framework developed by AWS that automates the process of building and deploying machine learning models. It provides a high-level API that simp ifies the task of training and evaluating models, making it suitable for both beginners and experienced machine learning practitioners.
 
 ## Project Workflow
-# Data Preparation: The dataset will be preprocessed and cleaned to handle missing values, outliers, and other data quality issues. Feature engineering techniques will be applied to derive additional meaningful features from the existing ones.
+Data Preparation:
 
-## Feature Selection: Automatic feature selection methods provided by AutoGluon will be employed to identify the most relevant features for the prediction task.
+Preprocess and clean the dataset.
+Apply feature engineering techniques to derive additional meaningful features.
+Feature Selection:
 
-### Model Training: AutoGluon will be used to train multiple machine-learning models on the dataset. The framework will automatically select and tune the best models based on the provided evaluation metric.
+Utilize AutoGluon's automatic feature selection methods to identify the most relevant features.
+Model Training:
 
-#### Model Evaluation: The trained models will be evaluated using appropriate evaluation metrics such as mean squared error (MSE) or root mean squared error (RMSE). The performance of the models will be compared to identify the best-performing one.
+Train multiple machine learning models using AutoGluon.
+The framework will automatically select and tune the best models based on the provided evaluation metric.
+Model Evaluation:
+
+Evaluate the trained models using appropriate metrics such as mean squared error (MSE) or root mean squared error (RMSE).
+Identify the best-performing model
 
 # Requirements
 To run this project, ensure that the following libraries are installed:
